@@ -22,8 +22,9 @@ function diff(args) {
         versionControl0(data)
         let add = spawn('git', ['add', '.'])
 
-        add.stdout.on('data', (data) => {
+        add.stdout.on('close', (data) => {
             var commit = spawn('git', args)
+            console.log(args);
             commit.stdout.on('data', (data) => {
               console.log(`${data}`)
             })
@@ -43,7 +44,9 @@ function versionControl0(data) {
     let files = `${data}`.trim().split('\n')
     for (file of files) {
         let matches = file.split(' ')
-        versionControl1(matches[matches.length - 1])
+        if (matches[0] != 'D') {
+            versionControl1(matches[matches.length - 1])
+        }
     }
 }
 
