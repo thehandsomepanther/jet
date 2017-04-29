@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "jet": "bin/jet.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thehandsomepanther/jet.git"
@@ -19,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/thehandsomepanther/jet/issues"
   },
-  "homepage": "https://github.com/thehandsomepanther/jet#readme"
+  "homepage": "https://github.com/thehandsomepanther/jet#readme",
+  "dependencies": {
+    "fs-extra": "^3.0.0"
+  }
 }
