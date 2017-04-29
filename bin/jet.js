@@ -8,7 +8,7 @@ if (args[0] == 'commit') {
 }
 
 function diff(args) {
-    let diff = spawn('git', ['diff', '--name-only'])
+    let diff = spawn('git', ['status', '-s'])
     diff.stdout.on('data', versionControl0)
 
     diff.stderr.on('data', (data) => {
