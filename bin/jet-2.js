@@ -22,7 +22,7 @@ function diff(args) {
         versionControl0(data)
         let add = spawn('git', ['add', '.'])
 
-        add.stdout.on('close', (data) => {
+        add.stdout.on('data', (data) => {
             var commit = spawn('git', args)
             console.log(args);
             commit.stdout.on('data', (data) => {
