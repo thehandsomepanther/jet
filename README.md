@@ -1,4 +1,4 @@
-## Jet: Version Control of the Future
+# Jet: Version Control of the Future
 Jet is a new version control system built on top of Git, with the aim of creating hyper-human-readable versioning.
 
 ## How to install
@@ -7,7 +7,7 @@ Jet is available on npm. Install it globally to be able to use it from anywhere.
 npm install -g jet-vcs
 ```
 
-### How it works
+## How it works
 Use `jet` wherever you would use the `git` commit. For example, to start a new project you can do:
 
 ```
