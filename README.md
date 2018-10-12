@@ -1,5 +1,5 @@
 ### ⚠️ big warn: this is a joke project ⚠️
-if youre reading this because youve stumbled onto my github or whatever this is your warning that the following project is not real. i mean it works, like it does what this readme says but it's a joke and youre not meant to use it seriously. [kevin wilde](https://github.com/kevinwilde) and [brandon fujii](https://github.com/brandonfujii) and i made it for [badhacks](http://badhacks.party). it won "worst bad hack," whatever that means. idk. p.s. you might not think this project as a joke is funny. that's fine. youre probably right.
+if you're reading this because youve stumbled onto my github or whatever this is your warning that the following project is not real. i mean it works, like it does what this readme says but it's a joke and you're not meant to use it seriously. [kevin wilde](https://github.com/kevinwilde) and [brandon fujii](https://github.com/brandonfujii) and i made it for [badhacks](http://badhacks.party). it won "worst bad hack," whatever that means. idk. p.s. you might not think this project as a joke is funny. that's fine. you're probably right.
 
 # Jet: Version Control of the Future
 Jet is a new version control system built on top of Git, with the aim of creating hyper-human-readable versioning.
